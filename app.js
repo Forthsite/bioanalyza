@@ -1,3 +1,6 @@
+
+/* maybe later 
+
 var menu = document.querySelector(".navbar");
 var menuPosition = menu.offsetTop;
 
@@ -9,3 +12,4 @@ window.onscroll = function() {
     }
   };
 
+*/
