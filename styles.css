@@ -715,7 +715,8 @@ form button:hover{
 }
 input[type="text"],
 input[type="email"],
-textarea {
+input[type="number"],
+textarea, label {
     font-size: 1.6rem;
     color: #475569; /* or any other greyish color of your choice */
 }
@@ -725,6 +726,34 @@ textarea {
 }
 #download h1{
     padding-bottom: 3rem;
+}
+.color{
+    display: inline;
+    font-size: 2rem;
+    color: var(--main-color);
+}
+.lokalita{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+}
+select{
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    font-size: 1.8rem;
+    color: var(--main-color);
+    border: 3.5px solid var(--main-color);
+    background-color: transparent;
+    border-radius: 5px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-weight: 400;
 }
 /*responsiveness */
 

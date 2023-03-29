@@ -6,11 +6,12 @@ if(isset($_POST['submit'])) {
     $name = $_POST['uzivatel'];
     $email = $_POST['email'];
     $message = $_POST['zprava'];
+    $lokalita = $_POST['lokalita'];
 
     // Create the email message
     $to = "produkceforthsite@email.cz";
     $subject = "Nová objednávka (test webu bioanalyza)";
-    $body = "Name: $name\nEmail: $email\n\n$message";
+    $body = "Name: $name\nEmail: $email\n\n$message\n\n$lokalita";
 
     // Send the email
     if(mail($to, $subject, $body)) {
